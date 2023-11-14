@@ -7,39 +7,120 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WukkamanCleaningAgencyFrontend.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WukkamanCleaningAgencyFrontend</a>
+        <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-light w-100" style="background-color: #504746;">
+            <div class="d-flex justify-content-between w-100 px-5">
+                <a class="navbar-brand fs-2 text-light heading" asp-area="" asp-controller="Home" asp-action="Index" style="line-height: 1;"><span class="d-flex"><img style="width: 4.5rem;" src="/images/logo.svg"><span class="d-flex flex-column fs-1">WukkaMan <span style="font-size: 1.6rem;">Cleaning Agency</span></span></span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="d-sm-inline-flex justify-content-between align-items-center">
+                    <ul class="navbar-nav flex-grow-1 heading">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">WHO WE ARE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">WHERE WE CLEAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">JOBS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">LOG IN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light pr-4" style="margin-right: 2rem;" asp-area="" asp-controller="Home" asp-action="Privacy">CALL 876 364 2835</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn" style="color: white; background-color: #B6244F ; border-radius: 999px;" asp-area="" asp-controller="Home" asp-action="Privacy">CLOCK IN</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div>
+        <main>
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
+    <div class="d-flex flex-column align-items-center p-5">
         <div class="container">
-            &copy; 2023 - WukkamanCleaningAgencyFrontend - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+                <div class="col d-flex">
+                    <div>
+                        <a class="navbar-brand fs-2 heading" asp-area="" asp-controller="Home" asp-action="Index" style="line-height: 1; color: #B6244F"><span class="d-flex"><img style="width: 4.5rem;" src="/images/logo2.svg"><span class="d-flex flex-column fs-1">WukkaMan <span style="font-size: 1.6rem;">Cleaning Agency</span></span></span></a>
+                        <div class="body-text">
+                            <p>123 Sparkle Street,Kingston,Jamaica</p>
+                            <p><strong>Phone:</strong> (555) 123-4567</p>
+                            <p><strong>Email:</strong> info@wukkaman.cleaning</p>
+                            <p><strong>Follow Us:</strong> Facebook | Twitter | Instagram</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div class="vr"></div>
+                    <div class="mx-3">
+                        <h3 class="heading" style="color: #B6244F;">Quick Links</h3>
+                        <div class="body-text d-flex flex-column">
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">About Us</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Services</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Testimonials</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div class="vr"></div>
+                    <div class="mx-3">
+                        <h3 class="heading" style="color: #B6244F;">Service Areas</h3>
+                        <div class="body-text d-flex flex-column">
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Kingston</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Montego Bay</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Ocho Rios</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Portmore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div class="vr"></div>
+                    <div class="mx-3">
+                        <h3 class="heading" style="color: #B6244F;">Service Areas</h3>
+                        <div class="body-text d-flex flex-column">
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Monday - Friday: 8:00 AM - 6:00 PM</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Saturday: 9:00 AM - 3:00 PM</a>
+                            <a class="navbar-brand text-black fs-6" asp-area="" asp-controller="Home" asp-action="Index">Sunday: Closed</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <footer class="border-top footer text-muted" style="background-color: #B6244F">
+       <div class="container">
+         <div class="row">
+            <ul class="nav col">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+            </ul>
+        <div class="col d-flex align-items-center justify-content-end" style="font-size: 1.5rem;">
+            <i class="fa-brands fa-linkedin-in px-2 text-light"></i>
+            <i class="fa-brands fa-instagram px-2 text-light"></i>
+            <i class="fa-brands fa-facebook px-2 text-light"></i>
+            <i class="fa-brands fa-twitter px-2 text-light"></i>
+        </div>
+         </div>
+       </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
