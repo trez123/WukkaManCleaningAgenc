@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7ZLGS2p8ZWjvP8XjIh/qTycZl5lc4NownrqpKvgdXUM=",
+  "Hash": "EUCckz+2mnIK1idHqmLZAw634ENCIC0X6Z8MdKWh+Ps=",
   "Source": "WukkamanCleaningAgencyFrontend",
   "BasePath": "_content/WukkamanCleaningAgencyFrontend",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\images\\logo.svg",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\images\\logo2.svg",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/logo2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo2.svg"
     },
     {
       "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\js\\site.js",

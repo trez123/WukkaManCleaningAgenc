@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\images\\logo2.svg",
+      "PackagePath": "staticwebassets\\images\\logo2.svg"
+    },
+    {
       "Id": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
