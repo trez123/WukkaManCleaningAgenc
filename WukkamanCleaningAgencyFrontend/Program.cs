@@ -5,12 +5,12 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient("EmployeeAPI", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7055/api/Employee/;http://localhost:5094/api/Employee");
+    client.BaseAddress = new Uri("https://localhost:7055/api/Employee/;http://localhost:5094/api/Employee/");
 });
 
 builder.Services.AddHttpClient("ShiftAPI", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7055/api/Shift/;http://localhost:5094/api/Shift");
+    client.BaseAddress = new Uri("https://localhost:7055/api/Shift/;http://localhost:5094/api/Shift/");
 });
 
 var app = builder.Build();

@@ -41,17 +41,19 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
         }
 
 
-        public IActionResult Upsert(int id = 0)
+        public IActionResult Upsert(string code)
         {
 
-            if(id == 0)
+            if(code == null)
                 return View(new Shift());
             else
             {
-                HttpResponseMessage ShiftResponse = _clientHandler.CreateClient("ShiftAPI").GetAsync($"{id}").Result;
+                HttpResponseMessage ShiftResponse = _clientHandler.CreateClient("EmployeeAPI").GetAsync($"GetEmployeeByCode?code={code}").Result;
                 string Shift = ShiftResponse.Content.ReadAsStringAsync().Result;
 
                 Shift view = JsonConvert.DeserializeObject<Shift>(Shift)!;
+
+                view.ShiftStart = DateTime.Now;
                 
                 return View(view);
             }
@@ -59,16 +61,21 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
 
 
         [HttpPost]
-
-        public IActionResult Upsert(Shift Shift)
+        public IActionResult Upsert(string code, Shift shift)
         {
-           if (!ModelState.IsValid) return View(Shift);
+            if (!ModelState.IsValid) return View(shift);
 
-           string json = JsonConvert.SerializeObject(Shift);
+            HttpResponseMessage EmployeeResponse = _clientHandler.CreateClient("ShiftAPI").GetAsync($"GetEmployeeByCode/{code}").Result;
+            string EmployeeString = EmployeeResponse.Content.ReadAsStringAsync().Result;
+            Employee employee = JsonConvert.DeserializeObject<Employee>(EmployeeString)!;
+
+            shift.Employee = employee;
+
+           string json = JsonConvert.SerializeObject(shift);
 
            StringContent data = new(json, Encoding.UTF8, "application/json");
 
-           if (Shift.Id == 0)
+           if (shift.Id == 0)
            {
                HttpResponseMessage response = _clientHandler.CreateClient("ShiftAPI").PostAsync("", data).Result;
 
@@ -79,12 +86,12 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
                else
                {
                    ModelState.AddModelError(string.Empty, "Product creation failed");
-                   return View(Shift);
+                   return View(shift);
                }
            }
            else
            {
-               HttpResponseMessage response = _clientHandler.CreateClient("ShiftAPI").PutAsync($"{Shift.Id}", data).Result;
+               HttpResponseMessage response = _clientHandler.CreateClient("ShiftAPI").PutAsync($"{shift.Id}", data).Result;
 
                if (response.IsSuccessStatusCode)
                {
@@ -93,7 +100,7 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
                else
                {
                    ModelState.AddModelError(string.Empty, "Product creation failed");
-                   return View(Shift);
+                   return View(shift);
                }
            }
         }
@@ -116,7 +123,5 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
                 return RedirectToAction("Index");
             }
         }
-
-
     }
 }

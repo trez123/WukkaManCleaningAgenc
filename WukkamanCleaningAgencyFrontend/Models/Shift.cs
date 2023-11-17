@@ -29,9 +29,11 @@ namespace WukkamanCleaningAgencyFrontend.Models
         public bool RT { get; set; }
 
         [DisplayName("SHIFT START")]
+        [DisplayFormat(DataFormatString = "{0:MMM-dd-yy}")]
         public DateTime ShiftStart { get; set; }
 
         [DisplayName("SHIFT END")]
+        [DisplayFormat(DataFormatString = "{0:MMM-dd-yy}")]
         public DateTime ShiftEnd { get; set; }
         public int EmployeeId { get; set; }
         

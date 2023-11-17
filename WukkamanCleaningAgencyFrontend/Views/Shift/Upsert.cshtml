@@ -6,119 +6,53 @@
 
 <div class="row mt-4">
     <div class="col-md-6 offset-md-3">
-        <h4 class="text-success">Vehicle Inventory Creation</h4>
+        <h1 class="heading" style="color: #B6244F;">Vehicle Inventory Creation</h1>
         <hr />
         <form asp-action="Upsert" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="VehicleName" class="control-label"></label>
-                <input asp-for="VehicleName" class="form-control" />
-                <span asp-validation-for="VehicleName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
-                <input type="file" multiple name="files" id="Image" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label asp-for="Details" class="control-label"></label>
-                <input asp-for="Details" class="form-control" />
-                <span asp-validation-for="Details" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RentCost" class="control-label"></label>
-                <input asp-for="RentCost" class="form-control" />
-                <span asp-validation-for="RentCost" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NumberOfPassengers" class="control-label"></label>
-                <input asp-for="NumberOfPassengers" class="form-control" />
-                <span asp-validation-for="NumberOfPassengers" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NumberOLargeBags" class="control-label"></label>
-                <input asp-for="NumberOLargeBags" class="form-control" />
-                <span asp-validation-for="NumberOLargeBags" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-2">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="UsbAdapter" /> @Html.DisplayNameFor(model => model.UsbAdapter)
+                    <input class="form-check-input" asp-for="MWOF" /> @Html.DisplayNameFor(model => model.MWOF)
                 </label>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-2">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="ReverseCamera" /> @Html.DisplayNameFor(model => model.ReverseCamera)
+                    <input class="form-check-input" asp-for="DCF" /> @Html.DisplayNameFor(model => model.DCF)
                 </label>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-2">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="PushStart" /> @Html.DisplayNameFor(model => model.PushStart)
+                    <input class="form-check-input" asp-for="CGWD" /> @Html.DisplayNameFor(model => model.CGWD)
                 </label>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-2">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Bluetooth" /> @Html.DisplayNameFor(model => model.Bluetooth)
+                    <input class="form-check-input" asp-for="EWB" /> @Html.DisplayNameFor(model => model.EWB)
                 </label>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-2">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="ToolsControl" /> @Html.DisplayNameFor(model => model.ToolsControl)
+                    <input class="form-check-input" asp-for="CB" /> @Html.DisplayNameFor(model => model.CB)
                 </label>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-2">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="SteeringControl" /> @Html.DisplayNameFor(model => model.SteeringControl)
+                    <input class="form-check-input" asp-for="RT" /> @Html.DisplayNameFor(model => model.RT)
                 </label>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="ThermalControl" /> @Html.DisplayNameFor(model => model.ThermalControl)
-                </label>
+            <div class="form-group mt-2">
+                <label asp-for="ShiftStart" class="control-label"></label>
+                <input asp-for="ShiftStart" class="form-control" disabled/>
+                <span asp-validation-for="ShiftStart" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="HeatedSeat" /> @Html.DisplayNameFor(model => model.HeatedSeat)
-                </label>
+            <div class="form-group mt-2">
+                <label asp-for="ShiftEnd" class="control-label"></label>
+                <input asp-for="ShiftEnd" class="form-control" />
+                <span asp-validation-for="ShiftEnd" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="AutomaticTransmission" /> @Html.DisplayNameFor(model => model.AutomaticTransmission)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="FourWheelDrive" /> @Html.DisplayNameFor(model => model.FourWheelDrive)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="LeatherSeats" /> @Html.DisplayNameFor(model => model.LeatherSeats)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Aux" /> @Html.DisplayNameFor(model => model.Aux)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="StartDateAvailable" class="control-label"></label>
-                <input asp-for="StartDateAvailable" class="form-control" />
-                <span asp-validation-for="StartDateAvailable" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EndDateAvailable" class="control-label"></label>
-                <input asp-for="EndDateAvailable" class="form-control" />
-                <span asp-validation-for="EndDateAvailable" class="text-danger"></span>
-            </div>
-            <div class="row mt-2">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input type="submit" value="Submit" class="btn btn-success w-100" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div>
-                        <a asp-action="Index" class="btn btn-secondary w-100">View All</a>
-                    </div>
+            <div class="row mt-4">
+                <div class="col d-flex justify-content-center">
+                        <input type="submit" value="ClOCK OUT" class="btn heading w-50 fs-5 py-2" style="color: white; background-color: #B6244F ; border-radius: 999px;"/>
                 </div>
             </div>
         </form>

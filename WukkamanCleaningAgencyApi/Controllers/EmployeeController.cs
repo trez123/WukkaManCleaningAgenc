@@ -50,6 +50,25 @@ namespace WukkamanCleaningAgencyApi.Controllers
             return employee;
         }
 
+        [HttpGet]
+        [Route ("GetEmployeeByCode")]
+        public async Task<ActionResult<Employee>> GetEmployeeByCode(string code)
+        {
+          if (_context.Employees == null)
+          {
+              return NotFound();
+          }
+            var employee = await _context.Employees.FirstOrDefaultAsync(b => b.Code == code);
+
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            return employee;
+        }
+
+
         // PUT: api/Employee/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
