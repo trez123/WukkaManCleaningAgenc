@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EUCckz+2mnIK1idHqmLZAw634ENCIC0X6Z8MdKWh+Ps=",
+  "Hash": "ruHyWBrVKipWA5o/mcNq0uQE6SrX5CvDWnAtHvI88hE=",
   "Source": "WukkamanCleaningAgencyFrontend",
   "BasePath": "_content/WukkamanCleaningAgencyFrontend",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "WukkamanCleaningAgencyFrontend\\wwwroot",
+      "Name": "WukkamanCleaningAgencyFrontend/wwwroot",
       "Source": "WukkamanCleaningAgencyFrontend",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WukkamanCleaningAgencyFrontend.styles.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/obj/Debug/net7.0/scopedcss/bundle/WukkamanCleaningAgencyFrontend.styles.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "WukkamanCleaningAgencyFrontend.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WukkamanCleaningAgencyFrontend.styles.css"
+      "OriginalItemSpec": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/obj/Debug/net7.0/scopedcss/bundle/WukkamanCleaningAgencyFrontend.styles.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WukkamanCleaningAgencyFrontend.bundle.scp.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/obj/Debug/net7.0/scopedcss/projectbundle/WukkamanCleaningAgencyFrontend.bundle.scp.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "WukkamanCleaningAgencyFrontend.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WukkamanCleaningAgencyFrontend.bundle.scp.css"
+      "OriginalItemSpec": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/obj/Debug/net7.0/scopedcss/projectbundle/WukkamanCleaningAgencyFrontend.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\css\\site.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/css/site.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\favicon.ico",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/favicon.ico",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -82,13 +82,98 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\images\\logo.svg",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/cleaning-cart.png",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/cleaning-cart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/cleaning-cart.png"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/client-satisfaction.svg",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/client-satisfaction.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/client-satisfaction.svg"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/customized-solutions.svg",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/customized-solutions.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/customized-solutions.svg"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/image.png",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/image.png"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/klipartz.com.png",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/klipartz.com.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/klipartz.com.png"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/logo.svg",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "images/logo.svg",
       "AssetKind": "All",
@@ -99,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.svg"
+      "OriginalItemSpec": "wwwroot/images/logo.svg"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\images\\logo2.svg",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/logo2.svg",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "images/logo2.svg",
       "AssetKind": "All",
@@ -116,13 +201,115 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo2.svg"
+      "OriginalItemSpec": "wwwroot/images/logo2.svg"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\js\\site.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/professionalism.svg",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/professionalism.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/professionalism.svg"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/reliability.svg",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/reliability.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/reliability.svg"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/sweeping.png",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/sweeping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/sweeping.png"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/user1.png",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/user1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/user1.png"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/user2.png",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/user2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/user2.png"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/images/user3.png",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
+      "BasePath": "_content/WukkamanCleaningAgencyFrontend",
+      "RelativePath": "images/user3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/user3.png"
+    },
+    {
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/js/site.js",
+      "SourceId": "WukkamanCleaningAgencyFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -133,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -150,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -167,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -184,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -201,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -218,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -235,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -252,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -269,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -286,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -303,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -320,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -337,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -354,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -371,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -388,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -405,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -422,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -439,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -456,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -473,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -490,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -507,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -524,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -541,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -558,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -575,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -592,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -609,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -626,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -643,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -660,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -677,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -694,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -711,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -728,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -745,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -762,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -779,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -796,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -813,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -830,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -847,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -864,13 +1051,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -881,13 +1068,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -898,13 +1085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -915,13 +1102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -932,13 +1119,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -949,13 +1136,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -966,13 +1153,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -983,13 +1170,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1000,13 +1187,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1017,13 +1204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1034,13 +1221,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1051,13 +1238,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1068,13 +1255,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1085,13 +1272,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "WukkamanCleaningAgencyFrontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\wwwroot\\",
+      "ContentRoot": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/wwwroot/",
       "BasePath": "_content/WukkamanCleaningAgencyFrontend",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1102,7 +1289,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     }
   ]
 }
