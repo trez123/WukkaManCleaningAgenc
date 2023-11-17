@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N275Np55cGxAAZMqKWGWQJbj7ZZYlAMZ7ZG6D+RedHerpfkfqWgpAVLp14Yl9kRljcRayLDgLCWG405OfYFvcg==",
+  "dgSpecHash": "mdWzUwyTNfahSNDLXIREYZevz/Qk5HpH+ghNe9xArhBdxbkqd7c8kGeIj+4fBZCq3ubaY3NEIdJmduLIevWh/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leeco\\OneDrive\\Documents\\TrezProjects\\WukkaManCleaningAgency\\WukkamanCleaningAgencyFrontend\\WukkamanCleaningAgencyFrontend.csproj",
+  "projectFilePath": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/WukkamanCleaningAgencyFrontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
