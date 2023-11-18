@@ -1,14 +1,14 @@
 @model WukkamanCleaningAgencyFrontend.Models.Shift
 
 @{
-    ViewData["Title"] = "Vehicle Inventory Creation";
+    ViewData["Title"] = "Employee Clock In";
 }
 
-<div class="row mt-4">
+<div class="row mt-5">
     <div class="col-md-6 offset-md-3">
-        <h1 class="heading" style="color: #B6244F;">Vehicle Inventory Creation</h1>
+        <h1 class="heading" style="color: #B6244F;">@ViewData["Title"]</h1>
         <hr />
-        <form asp-action="Upsert" enctype="multipart/form-data">
+        <form asp-action="Upsert" enctype="multipart/form-data" class="body-text">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group form-check mt-2">
                 <label class="form-check-label">
@@ -52,7 +52,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col d-flex justify-content-center">
-                        <input type="submit" value="ClOCK OUT" class="btn heading w-50 fs-5 py-2" style="color: white; background-color: #B6244F ; border-radius: 999px;"/>
+                        <input type="submit" value="ClOCK OUT" class="btn heading w-50 fs-5 body-text py-2" style="color: white; background-color: #B6244F ; border-radius: 999px; font-weight: bold"/>
                 </div>
             </div>
         </form>

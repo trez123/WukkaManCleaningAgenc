@@ -1,14 +1,14 @@
 ﻿@model WukkamanCleaningAgencyFrontend.Models.Employee
 
 @{
-    ViewData["Title"] = "Upsert";
+    ViewData["Title"] = "Add Or Edit Employee Details";
 }
 
 <div class="row mt-4">
     <div class="col-md-6 offset-md-3">
-        <h4 class="text-success">Add Or Edit Employee Details</h4>
+        <h4 class="heading" style="color: #B6244F;">@ViewData["Title"]</h4>
         <hr />
-        <form asp-action="Upsert">
+        <form asp-action="Upsert" class="body-text">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
@@ -28,12 +28,12 @@
             <div class="row mt-2">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="submit" value="Submit" class="btn btn-success w-100" />
+                        <input type="submit" value="Submit" class="btn heading w-50 fs-5 body-text py-2" style="color: white; background-color: #B6244F ; border-radius: 999px; font-weight: bold" />
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div>
-                        <a asp-action="Index" class="btn btn-secondary w-100">View All</a>
+                        <a asp-action="Index" class="btn btn-secondary w-100 fs-5 body-text" style="border-radius: 999px; font-weight: bold" >View All</a>
                     </div>
                 </div>
             </div>

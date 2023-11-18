@@ -54,6 +54,7 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
                 Shift view = JsonConvert.DeserializeObject<Shift>(Shift)!;
 
                 view.ShiftStart = DateTime.Now;
+                view.ShiftEnd = DateTime.Now;
                 
                 return View(view);
             }
@@ -63,7 +64,11 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
         [HttpPost]
         public IActionResult Upsert(string code, Shift shift)
         {
-            if (!ModelState.IsValid) return View(shift);
+            if (!ModelState.IsValid) 
+            {
+                ModelState.AddModelError(string.Empty, "Shift Clock Out failed");
+                return View(shift);
+            } 
 
             HttpResponseMessage EmployeeResponse = _clientHandler.CreateClient("ShiftAPI").GetAsync($"GetEmployeeByCode/{code}").Result;
             string EmployeeString = EmployeeResponse.Content.ReadAsStringAsync().Result;
