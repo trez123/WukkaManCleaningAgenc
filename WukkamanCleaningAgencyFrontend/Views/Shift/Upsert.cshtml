@@ -8,8 +8,9 @@
     <div class="col-md-6 offset-md-3">
         <h1 class="heading" style="color: #B6244F;">@ViewData["Title"]</h1>
         <hr />
-        <form asp-action="Upsert" enctype="multipart/form-data" class="body-text">
+        <form asp-action="Upsert" class="body-text">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="Employee!.Id" class="form-control" hidden/>
             <div class="form-group form-check mt-2">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="MWOF" /> @Html.DisplayNameFor(model => model.MWOF)
@@ -43,12 +44,12 @@
             <div class="form-group mt-2">
                 <label asp-for="ShiftStart" class="control-label"></label>
                 <input asp-for="ShiftStart" class="form-control" disabled/>
-                <span asp-validation-for="ShiftStart" class="text-danger"></span>
+                @* <span asp-validation-for="ShiftStart" class="text-danger"></span> *@
             </div>
             <div class="form-group mt-2">
                 <label asp-for="ShiftEnd" class="control-label"></label>
                 <input asp-for="ShiftEnd" class="form-control" />
-                <span asp-validation-for="ShiftEnd" class="text-danger"></span>
+                @* <span asp-validation-for="ShiftEnd" class="text-danger"></span> *@
             </div>
             <div class="row mt-4">
                 <div class="col d-flex justify-content-center">
@@ -58,7 +59,7 @@
         </form>
     </div>
 </div>
-
+@* 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+} *@

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -53,6 +54,7 @@ namespace WukkamanCleaningAgencyApi.Controllers
         // PUT: api/Shift/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize (Roles = "Admin")]
         public async Task<IActionResult> PutShift(int id, Shift shift)
         {
             if (id != shift.Id)
@@ -84,6 +86,7 @@ namespace WukkamanCleaningAgencyApi.Controllers
         // POST: api/Shift
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize (Roles = "Admin")]
         public async Task<ActionResult<Shift>> PostShift(Shift shift)
         {
           if (_context.Shifts == null)
@@ -98,6 +101,7 @@ namespace WukkamanCleaningAgencyApi.Controllers
 
         // DELETE: api/Shift/5
         [HttpDelete("{id}")]
+        [Authorize (Roles = "Admin")]
         public async Task<IActionResult> DeleteShift(int id)
         {
             if (_context.Shifts == null)

@@ -13,6 +13,11 @@ builder.Services.AddHttpClient("ShiftAPI", client =>
     client.BaseAddress = new Uri("http://localhost:5094/api/Shift/");
 });
 
+builder.Services.AddHttpClient("AuthAPI", client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5094/api/Auth/");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

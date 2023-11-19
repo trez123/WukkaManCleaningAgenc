@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B1SZ5RtN+1yRTbli0bWbJOYvBerwOQ65bXCaB6VANxpPj405btRXlCHaBiqcwqFg6xNG/1+4mVG80MFjno+BKw==",
+  "dgSpecHash": "FHrmeiPT9iM/uliFeykazcufVyNiVcfLo/thevWsr4yhCOuZ/maJePUjyBGEnX4JZzdR0om55FlLcBUjYleUcw==",
   "success": true,
   "projectFilePath": "/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyApi/WukkamanCleaningAgencyApi.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/home/trez/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/home/trez/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
     "/home/trez/.nuget/packages/messagepackanalyzer/2.1.152/messagepackanalyzer.2.1.152.nupkg.sha512",
+    "/home/trez/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.0/microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
     "/home/trez/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.0/microsoft.aspnetcore.cryptography.internal.7.0.0.nupkg.sha512",
     "/home/trez/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.0/microsoft.aspnetcore.cryptography.keyderivation.7.0.0.nupkg.sha512",
     "/home/trez/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/7.0.0/microsoft.aspnetcore.identity.entityframeworkcore.7.0.0.nupkg.sha512",

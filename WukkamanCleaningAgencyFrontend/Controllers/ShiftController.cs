@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using WukkamanCleaningAgencyFrontend.Models;
 using System.Text;
 using System.Net.Http.Headers;
+using System;
 
 namespace WukkamanCleaningAgencyFrontend.Controllers
 {
@@ -48,33 +49,30 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
                 return View(new Shift());
             else
             {
-                HttpResponseMessage ShiftResponse = _clientHandler.CreateClient("EmployeeAPI").GetAsync($"GetEmployeeByCode?code={code}").Result;
-                string Shift = ShiftResponse.Content.ReadAsStringAsync().Result;
+                HttpResponseMessage EmployeeResponse = _clientHandler.CreateClient("EmployeeAPI").GetAsync($"GetEmployeeByCode?code={code}").Result;
+                string employeeString = EmployeeResponse.Content.ReadAsStringAsync().Result;
+                Employee employee = JsonConvert.DeserializeObject<Employee>(employeeString)!;
 
-                Shift view = JsonConvert.DeserializeObject<Shift>(Shift)!;
+                Shift view = new()
+                {
+                    ShiftStart = DateTime.Now,
+                    ShiftEnd = DateTime.Now,
+                    Employee = employee
+                };
 
-                view.ShiftStart = DateTime.Now;
-                view.ShiftEnd = DateTime.Now;
-                
                 return View(view);
             }
         }
 
 
         [HttpPost]
-        public IActionResult Upsert(string code, Shift shift)
+        public IActionResult Upsert(Shift shift)
         {
-            if (!ModelState.IsValid) 
-            {
-                ModelState.AddModelError(string.Empty, "Shift Clock Out failed");
-                return View(shift);
-            } 
-
-            HttpResponseMessage EmployeeResponse = _clientHandler.CreateClient("ShiftAPI").GetAsync($"GetEmployeeByCode/{code}").Result;
-            string EmployeeString = EmployeeResponse.Content.ReadAsStringAsync().Result;
-            Employee employee = JsonConvert.DeserializeObject<Employee>(EmployeeString)!;
-
+            HttpResponseMessage EmployeeResponse = _clientHandler.CreateClient("EmployeeAPI").GetAsync($"{shift.Employee!.Id}").Result;
+            string employeeString = EmployeeResponse.Content.ReadAsStringAsync().Result;
+            Employee employee = JsonConvert.DeserializeObject<Employee>(employeeString)!;
             shift.Employee = employee;
+            shift.Employee.Id = 0;
 
            string json = JsonConvert.SerializeObject(shift);
 
@@ -90,7 +88,7 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
                }
                else
                {
-                   ModelState.AddModelError(string.Empty, "Product creation failed");
+                   ModelState.AddModelError(string.Empty, "Shift log failed");
                    return View(shift);
                }
            }
@@ -104,7 +102,7 @@ namespace WukkamanCleaningAgencyFrontend.Controllers
                }
                else
                {
-                   ModelState.AddModelError(string.Empty, "Product creation failed");
+                   ModelState.AddModelError(string.Empty, "Shift edit log failed");
                    return View(shift);
                }
            }

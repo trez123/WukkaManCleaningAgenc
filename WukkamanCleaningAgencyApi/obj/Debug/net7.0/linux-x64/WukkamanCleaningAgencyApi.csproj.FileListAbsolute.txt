@@ -581,3 +581,4 @@
 /home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyApi/obj/Debug/net7.0/linux-x64/WukkamanCleaningAgencyApi.pdb
 /home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyApi/obj/Debug/net7.0/linux-x64/WukkamanCleaningAgencyApi.genruntimeconfig.cache
 /home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyApi/obj/Debug/net7.0/linux-x64/ref/WukkamanCleaningAgencyApi.dll
+/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyApi/bin/Debug/net7.0/linux-x64/Microsoft.AspNetCore.Authentication.JwtBearer.dll

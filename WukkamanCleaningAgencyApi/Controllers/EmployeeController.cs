@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -72,6 +73,7 @@ namespace WukkamanCleaningAgencyApi.Controllers
         // PUT: api/Employee/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize (Roles = "Admin")]
         public async Task<IActionResult> PutEmployee(int id, Employee employee)
         {
             if (id != employee.Id)
@@ -103,6 +105,7 @@ namespace WukkamanCleaningAgencyApi.Controllers
         // POST: api/Employee
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize (Roles = "Admin")]
         public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
         {
           if (_context.Employees == null)
@@ -117,6 +120,7 @@ namespace WukkamanCleaningAgencyApi.Controllers
 
         // DELETE: api/Employee/5
         [HttpDelete("{id}")]
+        [Authorize (Roles = "Admin")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
             if (_context.Employees == null)

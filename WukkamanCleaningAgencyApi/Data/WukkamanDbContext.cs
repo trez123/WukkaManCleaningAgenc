@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WukkamanCleaningAgencyApi.Data
 {
-    public class WukkamanDbContext : DbContext
+    public class WukkamanDbContext : IdentityDbContext
     {
         public WukkamanDbContext(DbContextOptions<WukkamanDbContext> options) : base(options) { }
 
