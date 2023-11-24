@@ -86,7 +86,6 @@ namespace WukkamanCleaningAgencyApi.Controllers
         // POST: api/Shift
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        [Authorize (Roles = "Admin")]
         public async Task<ActionResult<Shift>> PostShift(Shift shift)
         {
           if (_context.Shifts == null)

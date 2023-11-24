@@ -11,7 +11,7 @@ namespace IdentityDemoFrontend.Controllers;
 public class LoginController : Controller
 {
     private readonly IHttpClientFactory _clientHandler;
-    const string SESSION_AUTH = "IdentityDemo";
+    const string SESSION_AUTH = "Wukkaman";
     public LoginController(IHttpClientFactory clienthandler)
     {
         this._clientHandler = clienthandler;
@@ -52,6 +52,25 @@ public class LoginController : Controller
                         string token = jObject.GetValue("result")!.ToString();
                         HttpContext.Session.SetString(SESSION_AUTH, token);
                     }
+                    //  if(responseData.ContainsKey("roles") && responseData["roles"] is JArray jArray)
+                    // {
+                    //     IList<string?> roles = new List<string?>();
+
+                    //     foreach (var roleToken in jArray)
+                    //     {
+                    //         string? role = roleToken.Value<string>();
+                    //         roles.Add(role);
+                    //     }
+
+                    //     if (roles.Count > 0)
+                    //     {
+                    //         Console.WriteLine($"Roles exist: {roles[0]}");
+                    //     }
+                    // } else
+                    // {
+                    //     Console.WriteLine($"roles dont exist");
+                    // }
+
                     return RedirectToAction("Welcome");
                 }
                 else

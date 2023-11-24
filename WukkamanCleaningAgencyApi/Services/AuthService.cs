@@ -100,5 +100,16 @@ namespace WukkamanCleaningAgencyApi.Services
 
             return token;
         }
+
+        public async Task<IList<string>> GetRoles(User user)
+        {
+            IdentityUser identityUser = new()
+            {
+                UserName = user.UserName,
+                Email = user.UserName
+            };
+
+            return await _userManager.GetRolesAsync(identityUser);
+        }
     }
 }
