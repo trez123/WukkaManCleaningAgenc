@@ -26,6 +26,12 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpGet]
+    public IActionResult Welcome()
+    {
+        return View();
+    }
+
     public IActionResult NavToShift(string EmployeeCode)
     {
         return RedirectToAction("Upsert" , "Shift", new { code = EmployeeCode});

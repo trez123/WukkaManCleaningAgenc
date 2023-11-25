@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,16 +40,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Login/Welcome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vV2VsY29tZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Register/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
+[/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Home/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9XZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/trez/Documents/AspFinalProjects/WukkaManCleaningAgency/WukkamanCleaningAgencyFrontend/Views/Shared/Error.cshtml]

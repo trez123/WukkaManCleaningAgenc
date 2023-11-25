@@ -39,6 +39,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseSession();
 
+app.UseCookiePolicy();
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

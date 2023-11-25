@@ -5,26 +5,52 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Net.Http.Headers;
 using Newtonsoft.Json.Linq;
+using System.Globalization;
 
 namespace IdentityDemoFrontend.Controllers;
 
-public class LoginController : Controller
+public class AuthController : Controller
 {
     private readonly IHttpClientFactory _clientHandler;
     const string SESSION_AUTH = "Wukkaman";
-    public LoginController(IHttpClientFactory clienthandler)
+    const string ROLES = "Roles";
+    public AuthController(IHttpClientFactory clienthandler)
     {
         this._clientHandler = clienthandler;
     }
 
     [HttpGet]
-    public IActionResult Index()
+    public IActionResult Register()
     {
         return View();
     }
 
+
+    [HttpPost]
+    public IActionResult Register(User user)
+    {
+        if(ModelState.IsValid)
+        {
+            HttpClient httpClient = _clientHandler.CreateClient("AuthAPI");
+            string json = JsonConvert.SerializeObject(user);
+            StringContent data = new(json, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = httpClient.PostAsync("register", data).Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Register");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "register failed");
+                return View(user);
+            }
+        }
+        return View(user);
+    }
+
     [HttpGet]
-    public IActionResult Welcome()
+    public IActionResult Login()
     {
         return View();
     }
@@ -51,38 +77,29 @@ public class LoginController : Controller
                         // string token = responseData["data"].ToString()!;
                         string token = jObject.GetValue("result")!.ToString();
                         HttpContext.Session.SetString(SESSION_AUTH, token);
+                        if(responseData.ContainsKey("roles") && responseData["roles"] is JArray jArray)
+                        {
+                            HttpContext.Session.SetString(ROLES, jArray.ToString());
+                            Console.WriteLine($"roles exist");
+
+                        } else
+                        {
+                        Console.WriteLine($"roles dont exist");
+                        }
                     }
-                    //  if(responseData.ContainsKey("roles") && responseData["roles"] is JArray jArray)
-                    // {
-                    //     IList<string?> roles = new List<string?>();
 
-                    //     foreach (var roleToken in jArray)
-                    //     {
-                    //         string? role = roleToken.Value<string>();
-                    //         roles.Add(role);
-                    //     }
-
-                    //     if (roles.Count > 0)
-                    //     {
-                    //         Console.WriteLine($"Roles exist: {roles[0]}");
-                    //     }
-                    // } else
-                    // {
-                    //     Console.WriteLine($"roles dont exist");
-                    // }
-
-                    return RedirectToAction("Welcome");
+                    return RedirectToAction("Welcome","Home");
                 }
                 else
                 {
                     ModelState.AddModelError(string.Empty, "Invalid Username or Password");
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Login");
                 }
             }
             else
             {
                 ModelState.AddModelError(string.Empty, "login failed, Invalid Username or Password");
-                return RedirectToAction("Index");
+                return RedirectToAction("Login");
             }
         }
         return View(user);
@@ -93,6 +110,7 @@ public class LoginController : Controller
         if(ModelState.IsValid)
         {
             HttpContext.Session.Remove(SESSION_AUTH);
+            HttpContext.Session.Remove(ROLES);
             return RedirectToAction("Index", "Home");
         }
 

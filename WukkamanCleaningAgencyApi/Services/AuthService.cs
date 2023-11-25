@@ -103,13 +103,9 @@ namespace WukkamanCleaningAgencyApi.Services
 
         public async Task<IList<string>> GetRoles(User user)
         {
-            IdentityUser identityUser = new()
-            {
-                UserName = user.UserName,
-                Email = user.UserName
-            };
+            IdentityUser? identityUser = await _userManager.FindByEmailAsync(user.UserName);
 
-            return await _userManager.GetRolesAsync(identityUser);
+            return await _userManager.GetRolesAsync(identityUser!);
         }
     }
 }
